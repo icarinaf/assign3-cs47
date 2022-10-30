@@ -31,7 +31,7 @@ export default function TrackItem({
         />
       </View>
       <View
-        style={{ width: "35%", flexDirection: "column", paddingRight: "3%" }}
+        style={{ width: "35%", flexDirection: "column", paddingRight: "2%" }}
       >
         <Text numberOfLines={1} style={styles.textSection}>
           {songTitle}
@@ -43,10 +43,9 @@ export default function TrackItem({
           {artist}
         </Text>
       </View>
-      <View style={{ width: "20%" }}>
+      <View style={{ width: "22%" }}>
         <Text numberOfLines={1} style={styles.textSection}>
-          {" "}
-          {album}{" "}
+          {album}
         </Text>
       </View>
       <View>
